@@ -23,7 +23,10 @@ This project demonstrates how to use Microsoft Power Automate to retrieve more t
   "eMails Subject": @{item()?['subject']}
 }
   ``` 
-6. HTML Table Creation: Convert the processed email data into an HTML table using the "Create HTML table" action. 
+6. HTML Table Creation: Convert the processed email data into an HTML table using the "Create HTML table" action.
+
+![get-eMails](https://github.com/korhanh/Power_Automate_in_Retrieve_Format_Emails_Beyond_25/blob/main/geteMails.png)
+
 
 ## Features
 
@@ -31,7 +34,7 @@ This project demonstrates how to use Microsoft Power Automate to retrieve more t
 - Data Filtering: Filter the data using the $select query parameter to include only specific fields (e.g., sender, subject, body).
 - Dynamic Table Creation: Converts email data into an HTML table format.
 - Easy Integration: Easily integrates into Power Automate flows.
-- 
+  
 ## Requirements
 
 - Microsoft Power Automate subscription
